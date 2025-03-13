@@ -48,7 +48,6 @@ body {
 .minimize { background-color: #ffbd2e; }
 .minimize:hover { background-color: #d79d21; }
 
-
 .maximize { background-color: #27c93f; }
 .maximize:hover { background-color: #18a32d; }
 
@@ -64,21 +63,12 @@ body {
     overflow-y: auto;
 }
 
-.terminal-content::-webkit-scrollbar {
-    width: 8px;
-}
-
-.terminal-content::-webkit-scrollbar-track {
-    background: #1e1e1e;
-}
-
+.terminal-content::-webkit-scrollbar { width: 8px; }
+.terminal-content::-webkit-scrollbar-track { background: #1e1e1e; }
+.terminal-content::-webkit-scrollbar-thumb:hover { background: #888; }
 .terminal-content::-webkit-scrollbar-thumb {
     background: #666;
     border-radius: 4px;
-}
-
-.terminal-content::-webkit-scrollbar-thumb:hover {
-    background: #888;
 }
 
 h1 {
@@ -91,25 +81,11 @@ pre {
     margin: 0;
 }
 
-.highlight-forder {
-    color: #B39DDB;
-}
-
-.highlight-gray {
-    color: #A9A9A9;   
-}
-
-.highlight-blue {
-    color: #B0E0E6
-}
-
-.highlight-yellow {
-    color: #FFE66D;
-}
-
-.command {
-    color: #00ff00;
-}
+.highlight-forder { color: #B39DDB; }
+.highlight-gray { color: #A9A9A9; }
+.highlight-blue { color: #B0E0E6; }
+.highlight-yellow { color: #FFE66D; }
+.command { color: #00ff00; }
 
 
 /* Chart */
