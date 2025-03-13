@@ -140,13 +140,13 @@ pre {
     height: 200px;
     border-radius: 50%;
     background: conic-gradient(
-        #2A4B7C 110.88deg, 
-        #4A6F9A 110.88deg 204.12deg,
-        #6A92B3 204.12deg 318.84deg, 
-        #8AB8D2 318.84deg 346.2deg, 
-        #A1C6D9 346.2deg 352.68deg, 
-        #C7D9E5 352.68deg 356.8deg,
-        #EAEFF2 360deg
+        #2A4B7C 0deg 124.2deg, 
+        #4A6F9A 124.2deg 213.5deg,
+        #6A92B3 213.5deg 278.3deg, 
+        #8AB8D2 278.3deg 324.4deg, 
+        #A1C6D9 324.4deg 348.9deg, 
+        #C7D9E5 348.9deg 354.7deg,
+        #EAEFF2 354.7deg 360deg
     );
 }
 
