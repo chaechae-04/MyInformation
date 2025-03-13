@@ -125,7 +125,7 @@ pre {
     display:inline-block;
 }
   
-.chart:after{
+.chart:after {
     content:'';
     background: #2e2e2e;
     position: absolute;
@@ -135,7 +135,7 @@ pre {
     transform: translate(-50%, -50%);
 }
 
-.chart-bar{
+.chart-bar {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -149,3 +149,11 @@ pre {
         #EAEFF2 360deg
     );
 }
+
+.highlight-chart-one { color: #2A4B7C }
+.highlight-chart-two { color: #4A6F9A }
+.highlight-chart-three { color: #6A92B3 }
+.highlight-chart-four { color: #8AB8D2 }
+.highlight-chart-five { color: #A1C6D9 }
+.highlight-chart-six { color: #C7D9E5 }
+.highlight-chart-seven { color: #EAEFF2 }
