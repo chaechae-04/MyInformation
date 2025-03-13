@@ -42,17 +42,15 @@ body {
     display: inline-block;
 }
 
-.close {
-    background-color: #ff5f56;
-}
+.close { background-color: #ff5f56; }
+.close:hover { background-color: #ee483f; }
 
-.minimize {
-    background-color: #ffbd2e;
-}
+.minimize { background-color: #ffbd2e; }
+.minimize:hover { background-color: #d79d21; }
 
-.maximize {
-    background-color: #27c93f;
-}
+
+.maximize { background-color: #27c93f; }
+.maximize:hover { background-color: #18a32d; }
 
 .terminal-title {
     color: #999;
