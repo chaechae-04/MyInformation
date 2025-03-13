@@ -115,6 +115,19 @@ pre {
 
 
 /* Chart */
+.chart-container {
+    padding-left: 5%;
+    width: 65%;
+    max-width: 65%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.chart-text {
+    padding-left: 50px;
+}
+
 .chart {
     position: relative;
     width: 200px;
