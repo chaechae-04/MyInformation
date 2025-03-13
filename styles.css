@@ -1,0 +1,143 @@
+body {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.terminal-window {
+    background-color: #1e1e1e;
+    border-radius: 6px;
+    width: 65%;
+    max-width: 65%;
+    height: 70%;
+    max-height: 70%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.terminal-header {
+    background-color: #3a3a3a;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 8px;
+    margin-left: 8px;
+}
+
+.button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.close {
+    background-color: #ff5f56;
+}
+
+.minimize {
+    background-color: #ffbd2e;
+}
+
+.maximize {
+    background-color: #27c93f;
+}
+
+.terminal-title {
+    color: #999;
+    font-size: 14px;
+    margin-left: 20px
+}
+
+.terminal-content {
+    padding: 20px;
+    height: 90%;
+    overflow-y: auto;
+}
+
+.terminal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.terminal-content::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+.terminal-content::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 4px;
+}
+
+.terminal-content::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+pre {
+    white-space: pre-wrap;
+    margin: 0;
+}
+
+.highlight-forder {
+    color: #B39DDB;
+}
+
+.highlight-gray {
+    color: #A9A9A9;   
+}
+
+.highlight-blue {
+    color: #B0E0E6
+}
+
+.highlight-yellow {
+    color: #FFE66D;
+}
+
+.command {
+    color: #00ff00;
+}
+
+
+/* Chart */
+.chart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.3s;
+    background:lightgray;
+    display:inline-block;
+}
+  
+.chart:after{
+    content:'';
+    background: #2e2e2e;
+    position: absolute;
+    top:50%; left:50%;
+    width:100px; height:100px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chart-bar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(#9986dd 50deg, #fbb871 50deg);
+}

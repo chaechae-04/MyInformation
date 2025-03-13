@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=dvice-width, initail-scale=1.0">
+    <title>Terminal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="terminal-window">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="button close"></span>
+                <span class="button minimize"></span>
+                <span class="button maximize"></span>
+            </div>
+            <div class="terminal-title">chaechae's Terminal</div>
+        </div>
+        <div class="terminal-content">
+            <pre>
+                <code>
+                <span class="highlight-blue">leeyoungsu@leeyoungsu-MacBookAir ~ $</span> whoami
+                이영수@likelion-fe
+
+                <span class="highlight-blue">leeyoungsu@leeyoungsu-MacBookAir ~ $</span> whoami --detailed
+                <span class="highlight-yellow">이름:</span> 이영수
+                <span class="highlight-yellow">나이:</span> 22살
+                <span class="highlight-yellow">전공:</span> 컴퓨터공학
+                <span class="highlight-yellow">MBTI:</span> ESTP
+                <span class="highlight-yellow">취미:</span> 술 마시기, 술 모으기
+
+                <span class="highlight-blue">leeyoungsu@leeyoungsu-MacBookAir ~ $</span> cat about.txt
+                교통대학교 멋쟁이사자처럼 13기 아기사자 이영수입니다.
+                프론트엔드 파트로 함께하게 되었습니다.
+
+                <span class="highlight-blue">leeyoungsu@leeyoungsu-MacBookAir ~ $</span> ls skills/
+                <span class="highlight-yellow">programming language/</span>
+                    ├── java ★★
+                    ├── swift ★☆
+                    ├── python 
+                    └── c# 
+
+                <span class="highlight-yellow">frontend/</span>
+                    ├──── <span class="highlight-forder">markup & styling/</span>
+                        ├──── html 
+                        └──── css 
+                            └── tailwind css
+                    └──── <span class="highlight-forder">scripting/</span>
+                        ├── javascript 
+                        ├── typescript 
+                        └── react 
+                
+                <span class="highlight-yellow">backend/</span>
+                    └──── <span class="highlight-forder">frameworks/</span>
+                        └── spring-boot 
+                    
+                <span class="highlight-yellow">database/</span>
+                    └── MySQL ★
+
+                <span class="highlight-blue">leeyoungsu@leeyoungsu-MacBookAir ~ $</span> cat github_commit.log --chart
+
+                <div class="chart"><div class="chart-bar" data-deg="50"></div></div>
+
+                <span class="highlight-yellow">Swift</span> ― 4751 lines
+                <span class="highlight-yellow">HTML</span> ― 3993 lines
+                <span class="highlight-yellow">CSS</span> ― 2793 lines
+                <span class="highlight-yellow">Java</span> ― 2205 lines
+                <span class="highlight-yellow">JavaScript</span> ― 1175 lines
+                <span class="highlight-yellow">TypeScript</span> ― 279 lines
+                <span class="highlight-yellow">Shell</span> ― 249 lines
+                <span class="highlight-gray">총 338번 커밋 ― (2025년 01월 27일 오후 02:50 업데이트)</span>
+
+                <span class="highlight-blue">leeyoungsu@leeyoungsu-MacBookAir ~ $</span> cat journey.log
+                <span class="highlight-yellow">2025.03</span> 교통대학교 멋쟁이사자처럼 13기 FE 파트 합류
+                <span class="highlight-yellow">2024.08</span> 해커톤 참여 - BE 담당
+                <span class="highlight-yellow">2024.05</span> 아이디어톤 참여
+                <span class="highlight-yellow">2024.03</span> 교통대학교 멋쟁이사자처럼 12기 BE 파트 합류
+
+                <span class="highlight-blue">leeyoungsu@leeyoungsu-MacBookAir ~ $</span> ls ~/interests/
+                    ├──── <span class="highlight-forder">개발/</span>
+                        ├── 알고리즘_최적화
+                        └── 클린_코드_작성
+                    └──── <span class="highlight-forder">취미/</span>
+                        ├── 위스키_공부
+                        ├── 와인_공부
+                        └── 칵테일_제조
+                    
+                <span class="highlight-blue">leeyoungsu@leeyoungsu-MacBookAir ~ $</span> netstat --current
+                <span class="highlight-yellow">현재 진행중인 프로젝트:</span>
+                - 자기소개 페이지 제작 <span class="highlight-gray">(HTML/CSS)</span>
+                - SwiftUI 를 사용한 일정관리 앱 개발중 <span class="highlight-gray">(iOS)</span>
+                - React 스터디
+                - 코딩테스트 스터디
+
+                <span class="highlight-blue">leeyoungsu@leeyoungsu-MacBookAir ~ $</span> ls ~/playlist/
+                    ├──── <span class="highlight-forder">Indie_Band_Playlist/</span>
+                        ├── SURL <span class="highlight-gray">(The Lights Behind You, 열기구, Dry Flower, etc.)</span>
+                        ├── HYUKOH <span class="highlight-gray">(Love Ya !, 위잉위잉, etc.)</span>
+                        └── etc. <span class="highlight-gray">(Salty - Damons year, 좋은 밤 좋은 꿈 - Nerd Connection, etc.)</span>
+                    ├──── <span class="highlight-forder">Foreign_Hiphop_Playlist/</span>
+                        ├── 21Savage <span class="highlight-gray">(redrum, a lot, etc.)</span>
+                        ├── Travis_Scott <span class="highlight-gray">(FE!N, goosebumps, etc.)</span>
+                        ├── Kendrick_lamar <span class="highlight-gray">(Not Like Us, luther, tv off, etc.)</span>
+                        └── etc. <span class="highlight-gray">(rockstar - Post Malone, Runaway - Kanye West, ZEZE - Kodak Black, etc.)</span>
+                    └──── <span class="highlight-forder">K-POP_GirlGroup_Playlist/</span>
+                        ├── NJZ <span class="highlight-gray">(ETA, Supernatural, How Sweet, etc.)</span>
+                        ├── Fromise9 <span class="highlight-gray">(DM, Super Sonic, from, etc.)</span>
+                        └── etc. <span class="highlight-gray">(REVEL HEART - ive, DRIP - BABYMONSTER, etc.)</span>
+
+                <span class="highlight-blue">leeyoungsu@leeyoungsu-MacBookAir ~ $</span> cat pets.txt
+                🐱 반려묘 정보
+                <span class="highlight-yellow">이름:</span> 이채채
+                <span class="highlight-yellow">품종:</span> 아메리칸 숏헤어
+                <span class="highlight-yellow">나이:</span> 4살
+                <span class="highlight-yellow">특징:</span> 귀여움
+                <span class="highlight-yellow">취미:</span> 하루종일 잠자기
+
+                <span class="highlight-blue">leeyoungsu@leeyoungsu-MacBookAir ~ $</span> contact --info
+                <span class="highlight-yellow">GitHub:</span> <a class="highlight-gray" href="https://github.com/chaechae-04" target="_blank">https://github.com/chaechae-04</a>
+                <span class="highlight-yellow">Email:</span> <a class="highlight-gray" href="mailto:leeys4903@naver.com">leeys4903@naver.com</a>
+                </code>
+            </pre>
+        </div>
+    </div>
+</body>
+
+</html>
