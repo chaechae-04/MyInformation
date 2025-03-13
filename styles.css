@@ -127,13 +127,13 @@ pre {
     height: 200px;
     border-radius: 50%;
     background: conic-gradient(
-        #2A4B7C 0deg 124.2deg, 
-        #4A6F9A 124.2deg 213.5deg,
-        #6A92B3 213.5deg 278.3deg, 
-        #8AB8D2 278.3deg 324.4deg, 
-        #A1C6D9 324.4deg 348.9deg, 
-        #C7D9E5 348.9deg 354.7deg,
-        #EAEFF2 354.7deg 360deg
+        #2A4B7C 0deg 124.2deg,          /* chart 1 */
+        #4A6F9A 124.2deg 213.5deg,      /* chart 2 */
+        #6A92B3 213.5deg 278.3deg,      /* chart 3 */
+        #8AB8D2 278.3deg 324.4deg,      /* chart 4 */ 
+        #A1C6D9 324.4deg 348.9deg,      /* chart 5 */
+        #C7D9E5 348.9deg 354.7deg,      /* chart 6 */
+        #EAEFF2 354.7deg 360deg         /* chart 7 */
     );
 }
 
